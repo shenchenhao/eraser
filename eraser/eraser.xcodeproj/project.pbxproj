@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACB96E951915E9A200513431 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB96E941915E9A200513431 /* Foundation.framework */; };
+		ACB96E971915E9A200513431 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB96E961915E9A200513431 /* CoreGraphics.framework */; };
+		ACB96E991915E9A200513431 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB96E981915E9A200513431 /* UIKit.framework */; };
+		ACB96E9F1915E9A200513431 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACB96E9D1915E9A200513431 /* InfoPlist.strings */; };
+		ACB96EA11915E9A200513431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB96EA01915E9A200513431 /* main.m */; };
+		ACB96EA51915E9A200513431 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB96EA41915E9A200513431 /* AppDelegate.m */; };
+		ACB96EA81915E9A200513431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB96EA61915E9A200513431 /* Main.storyboard */; };
+		ACB96EAB1915E9A200513431 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB96EAA1915E9A200513431 /* ViewController.m */; };
+		ACB96EAD1915E9A200513431 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB96EAC1915E9A200513431 /* Images.xcassets */; };
+		ACB96EB41915E9A200513431 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB96EB31915E9A200513431 /* XCTest.framework */; };
+		ACB96EB51915E9A200513431 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB96E941915E9A200513431 /* Foundation.framework */; };
+		ACB96EB61915E9A200513431 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB96E981915E9A200513431 /* UIKit.framework */; };
+		ACB96EBE1915E9A200513431 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACB96EBC1915E9A200513431 /* InfoPlist.strings */; };
+		ACB96EC01915E9A200513431 /* eraserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB96EBF1915E9A200513431 /* eraserTests.m */; };
+		ACB96ECE1916055600513431 /* UIImageView+SCHEraser.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB96ECD1916055600513431 /* UIImageView+SCHEraser.m */; };
+		ACB96ED019160EB200513431 /* hot_line-bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB96ECF19160EB200513431 /* hot_line-bottom@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACB96EB71915E9A200513431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB96E891915E9A200513431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB96E901915E9A200513431;
+			remoteInfo = eraser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACB96E911915E9A200513431 /* eraser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eraser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB96E941915E9A200513431 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACB96E961915E9A200513431 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACB96E981915E9A200513431 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACB96E9C1915E9A200513431 /* eraser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eraser-Info.plist"; sourceTree = "<group>"; };
+		ACB96E9E1915E9A200513431 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACB96EA01915E9A200513431 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACB96EA21915E9A200513431 /* eraser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eraser-Prefix.pch"; sourceTree = "<group>"; };
+		ACB96EA31915E9A200513431 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACB96EA41915E9A200513431 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACB96EA71915E9A200513431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACB96EA91915E9A200513431 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACB96EAA1915E9A200513431 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACB96EAC1915E9A200513431 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACB96EB21915E9A200513431 /* eraserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eraserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB96EB31915E9A200513431 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ACB96EBB1915E9A200513431 /* eraserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eraserTests-Info.plist"; sourceTree = "<group>"; };
+		ACB96EBD1915E9A200513431 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACB96EBF1915E9A200513431 /* eraserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eraserTests.m; sourceTree = "<group>"; };
+		ACB96ECC1916055600513431 /* UIImageView+SCHEraser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+SCHEraser.h"; path = "../UIImageView+SCHEraser.h"; sourceTree = "<group>"; };
+		ACB96ECD1916055600513431 /* UIImageView+SCHEraser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+SCHEraser.m"; path = "../UIImageView+SCHEraser.m"; sourceTree = "<group>"; };
+		ACB96ECF19160EB200513431 /* hot_line-bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hot_line-bottom@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACB96E8E1915E9A200513431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB96E971915E9A200513431 /* CoreGraphics.framework in Frameworks */,
+				ACB96E991915E9A200513431 /* UIKit.framework in Frameworks */,
+				ACB96E951915E9A200513431 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB96EAF1915E9A200513431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB96EB41915E9A200513431 /* XCTest.framework in Frameworks */,
+				ACB96EB61915E9A200513431 /* UIKit.framework in Frameworks */,
+				ACB96EB51915E9A200513431 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACB96E881915E9A200513431 = {
+			isa = PBXGroup;
+			children = (
+				ACB96E9A1915E9A200513431 /* eraser */,
+				ACB96EB91915E9A200513431 /* eraserTests */,
+				ACB96E931915E9A200513431 /* Frameworks */,
+				ACB96E921915E9A200513431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACB96E921915E9A200513431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACB96E911915E9A200513431 /* eraser.app */,
+				ACB96EB21915E9A200513431 /* eraserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACB96E931915E9A200513431 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACB96E941915E9A200513431 /* Foundation.framework */,
+				ACB96E961915E9A200513431 /* CoreGraphics.framework */,
+				ACB96E981915E9A200513431 /* UIKit.framework */,
+				ACB96EB31915E9A200513431 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACB96E9A1915E9A200513431 /* eraser */ = {
+			isa = PBXGroup;
+			children = (
+				ACB96ECF19160EB200513431 /* hot_line-bottom@2x.png */,
+				ACB96EA31915E9A200513431 /* AppDelegate.h */,
+				ACB96EA41915E9A200513431 /* AppDelegate.m */,
+				ACB96EA61915E9A200513431 /* Main.storyboard */,
+				ACB96EA91915E9A200513431 /* ViewController.h */,
+				ACB96EAA1915E9A200513431 /* ViewController.m */,
+				ACB96EAC1915E9A200513431 /* Images.xcassets */,
+				ACB96E9B1915E9A200513431 /* Supporting Files */,
+				ACB96ECC1916055600513431 /* UIImageView+SCHEraser.h */,
+				ACB96ECD1916055600513431 /* UIImageView+SCHEraser.m */,
+			);
+			path = eraser;
+			sourceTree = "<group>";
+		};
+		ACB96E9B1915E9A200513431 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACB96E9C1915E9A200513431 /* eraser-Info.plist */,
+				ACB96E9D1915E9A200513431 /* InfoPlist.strings */,
+				ACB96EA01915E9A200513431 /* main.m */,
+				ACB96EA21915E9A200513431 /* eraser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACB96EB91915E9A200513431 /* eraserTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB96EBF1915E9A200513431 /* eraserTests.m */,
+				ACB96EBA1915E9A200513431 /* Supporting Files */,
+			);
+			path = eraserTests;
+			sourceTree = "<group>";
+		};
+		ACB96EBA1915E9A200513431 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACB96EBB1915E9A200513431 /* eraserTests-Info.plist */,
+				ACB96EBC1915E9A200513431 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACB96E901915E9A200513431 /* eraser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB96EC31915E9A200513431 /* Build configuration list for PBXNativeTarget "eraser" */;
+			buildPhases = (
+				ACB96E8D1915E9A200513431 /* Sources */,
+				ACB96E8E1915E9A200513431 /* Frameworks */,
+				ACB96E8F1915E9A200513431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eraser;
+			productName = eraser;
+			productReference = ACB96E911915E9A200513431 /* eraser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACB96EB11915E9A200513431 /* eraserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB96EC61915E9A200513431 /* Build configuration list for PBXNativeTarget "eraserTests" */;
+			buildPhases = (
+				ACB96EAE1915E9A200513431 /* Sources */,
+				ACB96EAF1915E9A200513431 /* Frameworks */,
+				ACB96EB01915E9A200513431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB96EB81915E9A200513431 /* PBXTargetDependency */,
+			);
+			name = eraserTests;
+			productName = eraserTests;
+			productReference = ACB96EB21915E9A200513431 /* eraserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACB96E891915E9A200513431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sch;
+				TargetAttributes = {
+					ACB96EB11915E9A200513431 = {
+						TestTargetID = ACB96E901915E9A200513431;
+					};
+				};
+			};
+			buildConfigurationList = ACB96E8C1915E9A200513431 /* Build configuration list for PBXProject "eraser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACB96E881915E9A200513431;
+			productRefGroup = ACB96E921915E9A200513431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACB96E901915E9A200513431 /* eraser */,
+				ACB96EB11915E9A200513431 /* eraserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACB96E8F1915E9A200513431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB96EAD1915E9A200513431 /* Images.xcassets in Resources */,
+				ACB96E9F1915E9A200513431 /* InfoPlist.strings in Resources */,
+				ACB96EA81915E9A200513431 /* Main.storyboard in Resources */,
+				ACB96ED019160EB200513431 /* hot_line-bottom@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB96EB01915E9A200513431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB96EBE1915E9A200513431 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACB96E8D1915E9A200513431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB96EAB1915E9A200513431 /* ViewController.m in Sources */,
+				ACB96ECE1916055600513431 /* UIImageView+SCHEraser.m in Sources */,
+				ACB96EA51915E9A200513431 /* AppDelegate.m in Sources */,
+				ACB96EA11915E9A200513431 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB96EAE1915E9A200513431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB96EC01915E9A200513431 /* eraserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACB96EB81915E9A200513431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB96E901915E9A200513431 /* eraser */;
+			targetProxy = ACB96EB71915E9A200513431 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACB96E9D1915E9A200513431 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB96E9E1915E9A200513431 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACB96EA61915E9A200513431 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB96EA71915E9A200513431 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACB96EBC1915E9A200513431 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB96EBD1915E9A200513431 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACB96EC11915E9A200513431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACB96EC21915E9A200513431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACB96EC41915E9A200513431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eraser/eraser-Prefix.pch";
+				INFOPLIST_FILE = "eraser/eraser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACB96EC51915E9A200513431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eraser/eraser-Prefix.pch";
+				INFOPLIST_FILE = "eraser/eraser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ACB96EC71915E9A200513431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/eraser.app/eraser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eraser/eraser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "eraserTests/eraserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ACB96EC81915E9A200513431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/eraser.app/eraser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eraser/eraser-Prefix.pch";
+				INFOPLIST_FILE = "eraserTests/eraserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACB96E8C1915E9A200513431 /* Build configuration list for PBXProject "eraser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB96EC11915E9A200513431 /* Debug */,
+				ACB96EC21915E9A200513431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB96EC31915E9A200513431 /* Build configuration list for PBXNativeTarget "eraser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB96EC41915E9A200513431 /* Debug */,
+				ACB96EC51915E9A200513431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACB96EC61915E9A200513431 /* Build configuration list for PBXNativeTarget "eraserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB96EC71915E9A200513431 /* Debug */,
+				ACB96EC81915E9A200513431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACB96E891915E9A200513431 /* Project object */;
+}
