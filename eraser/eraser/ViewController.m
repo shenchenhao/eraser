@@ -22,6 +22,8 @@
 {
     NSArray *temp_point_array = @[[NSValue valueWithCGPoint:CGPointMake(309.000000, 71.500000)],[NSValue valueWithCGPoint:CGPointMake(303.000000, 71.500000)],[NSValue valueWithCGPoint:CGPointMake(288.000000, 72.500000)],[NSValue valueWithCGPoint:CGPointMake(244.500000, 79.000000)],[NSValue valueWithCGPoint:CGPointMake(216.500000, 80.000000)],[NSValue valueWithCGPoint:CGPointMake(186.000000, 83.000000)],[NSValue valueWithCGPoint:CGPointMake(147.500000, 86.000000)],[NSValue valueWithCGPoint:CGPointMake(104.500000, 88.000000)],[NSValue valueWithCGPoint:CGPointMake(67.000000, 90.000000)],[NSValue valueWithCGPoint:CGPointMake(38.000000, 91.500000)],[NSValue valueWithCGPoint:CGPointMake(11.500000, 93.500000)],[NSValue valueWithCGPoint:CGPointMake(98.000000, 206.500000)],[NSValue valueWithCGPoint:CGPointMake(131.500000, 225.500000)],[NSValue valueWithCGPoint:CGPointMake(165.000000, 245.000000)],[NSValue valueWithCGPoint:CGPointMake(196.000000, 258.500000)],[NSValue valueWithCGPoint:CGPointMake(249.500000, 270.000000)],[NSValue valueWithCGPoint:CGPointMake(265.000000, 271.000000)],[NSValue valueWithCGPoint:CGPointMake(276.500000, 273.000000)],[NSValue valueWithCGPoint:CGPointMake(282.500000, 273.000000)],[NSValue valueWithCGPoint:CGPointMake(288.000000, 273.000000)],[NSValue valueWithCGPoint:CGPointMake(291.000000, 273.000000)],[NSValue valueWithCGPoint:CGPointMake(292.000000, 274.000000)],[NSValue valueWithCGPoint:CGPointMake(292.500000, 275.000000)],[NSValue valueWithCGPoint:CGPointMake(292.500000, 277.000000)],[NSValue valueWithCGPoint:CGPointMake(292.500000, 278.000000)],[NSValue valueWithCGPoint:CGPointMake(292.500000, 279.000000)],[NSValue valueWithCGPoint:CGPointMake(285.500000, 284.500000)],[NSValue valueWithCGPoint:CGPointMake(267.500000, 291.500000)],[NSValue valueWithCGPoint:CGPointMake(241.500000, 299.000000)],[NSValue valueWithCGPoint:CGPointMake(204.000000, 305.000000)],[NSValue valueWithCGPoint:CGPointMake(160.500000, 312.500000)],[NSValue valueWithCGPoint:CGPointMake(106.000000, 319.500000)],[NSValue valueWithCGPoint:CGPointMake(59.500000, 325.500000)],[NSValue valueWithCGPoint:CGPointMake(12.500000, 331.000000)],[NSValue valueWithCGPoint:CGPointMake(48.000000, 451.000000)],[NSValue valueWithCGPoint:CGPointMake(97.000000, 477.000000)],[NSValue valueWithCGPoint:CGPointMake(146.000000, 498.000000)],[NSValue valueWithCGPoint:CGPointMake(190.000000, 514.500000)],[NSValue valueWithCGPoint:CGPointMake(226.500000, 523.000000)],[NSValue valueWithCGPoint:CGPointMake(259.500000, 528.000000)],[NSValue valueWithCGPoint:CGPointMake(294.000000, 533.500000)],[NSValue valueWithCGPoint:CGPointMake(198.500000, 550.500000)],[NSValue valueWithCGPoint:CGPointMake(131.000000, 550.500000)],[NSValue valueWithCGPoint:CGPointMake(68.500000, 550.500000)],[NSValue valueWithCGPoint:CGPointMake(21.500000, 550.500000)]];
     
+    NSLog(@"--- %d",temp_point_array.count);
+    
     [self.image_view startErasureAnimationByPointFrame:temp_point_array
                                              frameTime:1 /40.0f
                                                 radius:150.0f
@@ -53,6 +55,7 @@
 //                                       0.0f);
 //    }];
 //
+
     
     [self performSelector:@selector(test) withObject:nil afterDelay:3.0f];
 }
